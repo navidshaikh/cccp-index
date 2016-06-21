@@ -20,3 +20,23 @@ Projects:
     git-path    : /
     git-branch  : master
     notify-email: bamachrn@gmail.com
+    depends-on  : null
+ 
+  - id          : 2
+    app-id      : openshift
+    job-id      : origin-base
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images/base
+    git-branch  : master
+    notify-email: bamachrn@gmail.com
+    depends-on  : null
+ 
+  - id          : 3
+    app-id      : openshift
+    job-id      : origin-haproxy-router-base
+    git-url     : git://github.com/mohammedzee1000/origin
+    git-path    : images/router/haproxy-base
+    git-branch  : master
+    notify-email: bamachrn@gmail.com
+    depends-on  : 
+        - 2
