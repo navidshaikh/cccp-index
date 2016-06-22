@@ -13,16 +13,7 @@ Projects:
 # from the top of this file as a template. All values are required.
 
 #bamachrn
-  - id          : default
-    app-id      : bamachrn
-    job-id      : python
-    git-url     : https://github.com/bamachrn/cccp-python
-    git-path    : /
-    git-branch  : master
-    notify-email: bamachrn@gmail.com
-    depends-on  : null
- 
-  - id          : 2
+  - id          : 1
     app-id      : openshift
     job-id      : origin-base
     git-url     : git://github.com/mohammedzee1000/origin
@@ -31,7 +22,7 @@ Projects:
     notify-email: bamachrn@gmail.com
     depends-on  : null
  
-  - id          : 3
+  - id          : 2
     app-id      : openshift
     job-id      : origin-haproxy-router-base
     git-url     : git://github.com/mohammedzee1000/origin
@@ -39,4 +30,4 @@ Projects:
     git-branch  : master
     notify-email: bamachrn@gmail.com
     depends-on  : 
-        - 2
+        - 1
