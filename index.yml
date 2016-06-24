@@ -22,23 +22,3 @@ Projects:
     notify-email: bamachrn@gmail.com
     depends-on  : null
  
-  - id          : 2
-    app-id      : openshift
-    job-id      : origin-haproxy-router-base
-    git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/router/haproxy-base
-    git-branch  : master
-    notify-email: bamachrn@gmail.com
-    depends-on  : 
-        
-        - openshift/origin-base
-
-  - id          : 3
-    app-id      : openshift
-    job-id      : origin-release
-    git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/release
-    git-branch  : master
-    notify-email: mohammed.zee1000@gmail.com
-    depends-on  : 
-        - openshift/origin-base
