@@ -7,7 +7,9 @@ Projects:
     git-url     : 
     git-path    : 
     git-branch  :
+    dockerfile-name:
     notify-email: 
+    depends-on:
 
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
@@ -19,6 +21,7 @@ Projects:
     git-url     : git://github.com/mohammedzee1000/origin
     git-path    : images/base
     git-branch  : master
+    dockerfile-name: Dockerfile
     notify-email: bamachrn@gmail.com
     depends-on  : null
  
