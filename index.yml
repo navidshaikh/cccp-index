@@ -16,10 +16,10 @@ Projects:
 
 #bamachrn
   - id          : 1
-    app-id      : openshift
-    job-id      : origin-base
-    git-url     : git://github.com/mohammedzee1000/origin
-    git-path    : images/base
+    app-id      : bamachrn
+    job-id      : python
+    git-url     : https://github.com/bamachrn/cccp-python
+    git-path    : /
     git-branch  : master
     dockerfile-name: Dockerfile
     notify-email: bamachrn@gmail.com
