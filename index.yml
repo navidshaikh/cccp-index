@@ -7,9 +7,9 @@ Projects:
     git-url     : 
     git-path    : 
     git-branch  :
-    dockerfile-name:
+    target-file :
     notify-email: 
-    depends-on:
+    depends-on  :
 
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
@@ -21,7 +21,7 @@ Projects:
     git-url     : https://github.com/bamachrn/cccp-python
     git-path    : /
     git-branch  : master
-    dockerfile-name: Dockerfile.test
+    target-file : Dockerfile.test
     notify-email: bamachrn@gmail.com
     depends-on  : null
  
