@@ -10,6 +10,7 @@ Projects:
     target-file :
     notify-email: 
     depends-on  :
+    desired-tag :
 
 # Add your job below this line, you can use the 'default' project
 # from the top of this file as a template. All values are required.
@@ -24,3 +25,4 @@ Projects:
     target-file : Dockerfile.test
     notify-email: bamachrn@gmail.com
     depends-on  : null
+    desired-tag : test
