@@ -25,4 +25,3 @@ Projects:
     target-file : Dockerfile.test
     notify-email: bamachrn@gmail.com
     depends-on  : null
-    desired-tag : null
