@@ -1,18 +1,3 @@
-# This is the main index.
-
-  - id          : default
-    job-id      : 
-    git-url     : 
-    git-path    : 
-    git-branch  :
-    target-file :
-    notify-email: 
-    depends-on  :
-    desired-tag :
-
-# Add your job below this line, you can use the 'default' project
-# from the top of this file as a template. All values are required.
-
 #bamachrn
   - id          : 1
     job-id      : python
