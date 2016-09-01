@@ -1,5 +1,6 @@
 #bamachrn
   - id          : 1
+    app-id      : bamachrn
     job-id      : python
     git-url     : https://github.com/bamachrn/cccp-python
     git-path    : /
