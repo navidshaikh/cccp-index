@@ -1,6 +1,5 @@
 # This is the main index.
 
-Projects:
   - id          : default
     job-id      : 
     git-url     : 
