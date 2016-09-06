@@ -3,8 +3,8 @@
     app-id      : bamachrn
     job-id      : python
     git-url     : https://github.com/bamachrn/cccp-python
-    git-path    : /
+    git-path    : demo
     git-branch  : master
-    target-file : Dockerfile.test
+    target-file : Dockerfile.demo
     notify-email: bamachrn@gmail.com
     depends-on  : null
