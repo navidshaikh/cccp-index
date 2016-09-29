@@ -1,10 +1,12 @@
 #bamachrn
-  - id          : 1
-    app-id      : bamachrn
-    job-id      : python
-    git-url     : https://github.com/bamachrn/cccp-python
-    git-path    : demo
-    git-branch  : master
-    target-file : Dockerfile.demo
+Projects:
+  - id: 1
+    app-id: bamachrn
+    job-id: python
+    git-url: https://github.com/bamachrn/cccp-python
+    git-branch: master
+    git-path: demo
+    target-file: Dockerfile.demo
+    desired-tag: release
     notify-email: bamachrn@gmail.com
-    depends-on  : null
+    depends-on: null
