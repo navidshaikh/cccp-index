@@ -8,5 +8,5 @@ Projects:
     git-path: demo
     target-file: Dockerfile.demo
     desired-tag: release
-    notify-email: shahdharmit@gmail.com
+    notify-email: nshaikh@redhat.com
     depends-on: null
