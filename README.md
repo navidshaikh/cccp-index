@@ -8,7 +8,7 @@ Amongst other things, one key value of using the pipeline is that it will track 
        -----------    -----------    ------------    -----------    ----------
        |         |    |         |    |          |    |         |    |        |
        |   Git   |--->|  Build  |--->|   Test   |--->| Deliver |--->|Maintain|
-       |         |    |         |    |          |    |         |    |        | 
+       |         |    |         |    |          |    |         |    |        |
        -----------    -----------    ------------    -----------    ----------
 
 You can read more about AtomicApp, Container Applications and the Nulecule specification at [https://github.com/projectatomic/nulecule](https://github.com/projectatomic/nulecule)
