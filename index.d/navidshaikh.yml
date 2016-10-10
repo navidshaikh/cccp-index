@@ -73,5 +73,5 @@ Projects:
     git-path: atomic_scanners/scanner-rpm-verify
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: nshaikh@redhat.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: null
