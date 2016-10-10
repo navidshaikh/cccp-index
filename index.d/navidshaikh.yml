@@ -7,7 +7,7 @@ Projects:
     git-path: demo
     target-file: Dockerfile.demo
     desired-tag: release
-    notify-email: nshaikh@redhat.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: null
 
   - id: 2
@@ -18,7 +18,7 @@ Projects:
     git-path: server
     target-file: Dockerfile.test
     desired-tag: latest
-    notify-email: nshaikh@redhat.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: null
 
   - id: 3
@@ -29,7 +29,7 @@ Projects:
     git-path: server
     target-file: Dockerfile.delivery
     desired-tag: latest
-    notify-email: nshaikh@redhat.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: null
 
   - id: 4
@@ -40,7 +40,7 @@ Projects:
     git-path: mail_service
     target-file: Dockerfile.mailserv
     desired-tag: latest
-    notify-email: nshaikh@redhat.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: null
 
   - id: 5
@@ -51,7 +51,7 @@ Projects:
     git-path: atomic_scanners/pipeline-scanner
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: nshaikh@redhat.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: null
 
   - id: 6
@@ -62,7 +62,7 @@ Projects:
     git-path: /
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: nshaikh@redhat.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: null
 
   - id: 7
