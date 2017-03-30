@@ -75,3 +75,14 @@ Projects:
     desired-tag: latest
     notify-email: shaikhnavid14@gmail.com
     depends-on: null
+
+  - id: 8
+    aap-id: kbsingh
+    job-id: zabbix-agent
+    git-url: https://gitlab.com/kbsingh/container-zabbix-agent.git
+    git-branch: master
+    git-path: /
+    target-file: Dockerfile
+    desired-tag: 3.0.7-1.el7
+    notify-email: shaikhnavid14@gmail.com
+    depends-on: centos/centos:7
