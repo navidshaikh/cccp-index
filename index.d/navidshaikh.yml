@@ -22,7 +22,7 @@ Projects:
     depends-on: null
 
   - id: 8
-    aap-id: kbsingh
+    app-id: kbsingh
     job-id: zabbix-agent
     git-url: https://gitlab.com/kbsingh/container-zabbix-agent.git
     git-branch: master
