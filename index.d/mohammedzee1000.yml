@@ -7,9 +7,9 @@ Projects:
     git-path: 9.2/
     target-file: Dockerfile.centos7
     desired-tag: 9.2
-    notify-email: mohammed.zee1000@gmail.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: centos/centos:latest
-  
+
   - id: 2
     app-id: mohammedzee1000
     job-id: postgresql
@@ -18,5 +18,5 @@ Projects:
     git-path: 9.3/
     target-file: Dockerfile.centos7
     desired-tag: 9.3
-    notify-email: mohammed.zee1000@gmail.com
+    notify-email: shaikhnavid14@gmail.com
     depends-on: centos/centos:latest
