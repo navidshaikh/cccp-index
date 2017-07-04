@@ -1,0 +1,11 @@
+Projects:
+  - id: 1
+    app-id: mattermost
+    job-id: mattermost-github-integration
+    git-url: https://github.com/syamgk/mattermost-github-integration
+    git-branch: centos
+    git-path: /
+    target-file: Dockerfile
+    desired-tag: latest
+    notify-email: shaikhnavid14@gmail.com
+    depends-on: centos/centos:latest
