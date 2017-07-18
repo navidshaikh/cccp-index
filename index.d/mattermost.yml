@@ -6,6 +6,6 @@ Projects:
     git-branch: centos
     git-path: /
     target-file: Dockerfile
-    desired-tag: async
+    desired-tag: latest
     notify-email: shaikhnavid14@gmail.com
     depends-on: centos/centos:latest
