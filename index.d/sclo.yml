@@ -1,0 +1,33 @@
+Projects:
+  - id: 1
+    app-id: sclo
+    job-id: mysql-55-centos7
+    git-url: https://github.com/sclorg/mysql-container
+    git-branch: master
+    git-path: 5.5/
+    target-file: Dockerfile
+    desired-tag: latest
+    notify-email: shaikhnavid14@gmail.com
+    depends-on: centos/centos:latest
+
+  - id: 2
+    app-id: sclo
+    job-id: nginx-16-centos7
+    git-url: https://github.com/sclorg/nginx-container
+    git-branch: master
+    git-path: 1.6/
+    target-file: Dockerfile
+    desired-tag: latest
+    notify-email: shaikhnavid14@gmail.com
+    depends-on: centos/centos:latest
+
+  - id: 3
+    app-id: sclo
+    job-id: ror-41-centos7
+    git-url: https://github.com/sclorg/ror-container
+    git-branch: master
+    git-path: 4.1/
+    target-file: Dockerfile
+    desired-tag: latest
+    notify-email: shaikhnavid14@gmail.com
+    depends-on: centos/centos:latest
