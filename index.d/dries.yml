@@ -1,22 +1,22 @@
 Projects:
   - id: 1
-    app-id: fabric8
-    job-id: openshift-nginx
-    git-url: https://github.com/fabric8-ui/fabric8-ui-openshift-nginx
+    app-id: dries
+    job-id: template-test
+    git-url: https://github.com/driesverachtert/dockerfiles
     git-branch: master
-    git-path: /
+    git-path: /template-test
     target-file: Dockerfile
     desired-tag: latest
     notify-email: shaikhnavid14@gmail.com
     depends-on: centos/centos:latest
 
   - id: 2
-    app-id: fabric8
-    job-id: openshift-nginx-tag
-    git-url: https://github.com/fabric8-ui/fabric8-ui-openshift-nginx
+    app-id: dries
+    job-id: beanstalkd
+    git-url: https://github.com/driesverachtert/dockerfiles
     git-branch: master
-    git-path: /
+    git-path: /beanstalkd
     target-file: Dockerfile
-    desired-tag: 1.0.1
+    desired-tag: latest
     notify-email: shaikhnavid14@gmail.com
     depends-on: centos/centos:latest
